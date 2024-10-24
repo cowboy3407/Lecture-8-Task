@@ -5,8 +5,6 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     background-color: #FAFAFA;
     display: flex;
     justify-content: center;
@@ -257,3 +255,69 @@ color: #4D4F62;
 }
 
 
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+ 
+    .container {
+    flex-direction: column;
+    height: 1360px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box1 {
+    width: 371px;
+    height: 161px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bt1 {
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    width: 297px;
+    height: 36px;
+    letter-spacing: 0.17px;
+}
+
+.bt2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+    width: 295px;
+    height: 36px;
+}
+
+.bt3 {
+    width: 311px;
+    height: 75px;
+}
+
+.box2 {
+    flex-direction: column;
+    height: 100%;
+    width: 375px;
+    margin: 0;
+    justify-content: center;
+}
+
+.tmrk {
+    width: 375px;
+    height: auto;
+    justify-content: center;
+}
+
+.super,.team,.karma,.calc {
+    height: 222px;
+    width: 311px;
+}
+
+}
